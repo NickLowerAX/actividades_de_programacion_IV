@@ -13,3 +13,12 @@ Además, se empleó localStorage para guardar y recuperar datos sin necesidad de
 Se validaron los datos verificando que ningún campo obligatorio estuviera vacío.
 También se agregó una validación para asegurar que la fecha de devolución no sea menor que la fecha de préstamo. En caso de error,
 se muestra un mensaje de alerta y no se permite el registro.
+
+¿Cómo manejaría la escalabilidad futura en su página?
+
+Para la escalabilidad futura:
+Separar el código en módulos JavaScript
+Implementar una base de datos en lugar de localStorage
+Conectar la aplicación a un backend con API REST
+Agregar autenticación de usuarios
+Implementar paginación para grandes volúmenes de datos
